@@ -50,3 +50,40 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Styling for each assignment container */
+.assignment {
+    background: #ffffff; /* White background for the content block */
+    border: 1px solid #ddd; /* Light grey border */
+    padding: 20px; /* Padding inside each assignment block */
+    margin-bottom: 20px; /* Space between each assignment block */
+    border-radius: 5px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* Subtle shadow for 3D effect */
+}
+
+/* Styling for the title inside the assignment block */
+.assignment h2 {
+    color: #333; /* Dark grey text for headings */
+    margin-bottom: 10px; /* Space below the heading */
+}
+
+/* Styling for the assignment description */
+.assignment p {
+    margin-bottom: 20px; /* Space below the paragraph */
+}
+
+/* Styling for GitHub link buttons */
+.github-link {
+    background-color: #333; /* Bootstrap blue for buttons */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px 15px; /* Padding inside the button */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px; /* Rounded corners for the button */
+    display: inline-block; /* Ensures the link behaves like a button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+/* Hover effect for buttons */
+.github-link:hover {
+    background-color: #333; /* Darker blue on hover */
+}
