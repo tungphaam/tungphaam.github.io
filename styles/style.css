@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Be Vietnam Pro', sans-serif; /* Add fallback font */
     line-height: 1.6;
     margin: 0;
     padding: 0;
@@ -15,23 +15,37 @@ body {
 header {
     background: #333;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
+h1 {
+    font-size: 32px; /* Increase font size to 32px */
+}
+
+nav {
+    display: flex;
+    justify-content: center; /* Centers the nav in the header */
+    width: 100%; /* Ensures nav takes the full width of the header */
+}
+
 nav ul {
+    display: flex;
+    justify-content: space-evenly; /* Evenly distributes space around items */
+    width: 100%; /* Uses the full width available */
     list-style: none;
     padding: 0;
 }
 
 nav ul li {
-    display: inline;
-    margin-right: 20px;
+    margin: 0 10px; /* Optional: adds some horizontal space between links */
 }
 
 nav ul li a {
     color: white;
     text-decoration: none;
+    padding: 10px; /* Adds padding around the links for better clickability */
+    font-size: 24px;
 }
 
 main {
@@ -43,7 +57,7 @@ main {
 
 footer {
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     background: #333;
     color: white;
     position: fixed;
@@ -70,11 +84,12 @@ footer {
 /* Styling for the assignment description */
 .assignment p {
     margin-bottom: 20px; /* Space below the paragraph */
+    color: #808080;
 }
 
 /* Styling for GitHub link buttons */
 .github-link {
-    background-color: #333; /* Bootstrap blue for buttons */
+    background-color: #333; /* Bootstrap black for buttons */
     color: #ffffff; /* White text for contrast */
     padding: 10px 15px; /* Padding inside the button */
     text-decoration: none; /* Remove underline from links */
@@ -85,5 +100,19 @@ footer {
 
 /* Hover effect for buttons */
 .github-link:hover {
-    background-color: #333; /* Darker blue on hover */
+    background-color: #333; 
+}
+
+/* Specific styling for the profile photo */
+.profile-image {
+    display: block;            /* Makes the image a block element which can be centered */
+    margin-left: auto;         /* Automatically adjusts the left margin */
+    margin-right: auto;        /* Automatically adjusts the right margin */
+    width: 40%;                /* Adjust the width as necessary, or use a fixed width */
+    height: auto;              /* Maintains the aspect ratio */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2); /* Optional: Adds a subtle shadow */
+}
+
+.index p {
+    font-size: 24px;
 }
