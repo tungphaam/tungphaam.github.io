@@ -87,32 +87,21 @@ footer {
     color: #808080;
 }
 
-/* Styling for GitHub link buttons */
-.github-link {
-    background-color: #333; /* Bootstrap black for buttons */
-    color: #ffffff; /* White text for contrast */
-    padding: 10px 15px; /* Padding inside the button */
-    text-decoration: none; /* Remove underline from links */
-    border-radius: 5px; /* Rounded corners for the button */
-    display: inline-block; /* Ensures the link behaves like a button */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+/* Add this to your styles/style.css */
+.github-link, .youtube-link {
+    display: inline-block;
+    margin-right: 10px;
+    padding: 10px 15px;
+    background-color: #333;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
 }
 
-/* Styling for Youtube link buttons */
-.youtube-link {
-    background-color: #333; /* Bootstrap black for buttons */
-    color: #ffffff; /* White text for contrast */
-    padding: 10px 15px; /* Padding inside the button */
-    text-decoration: none; /* Remove underline from links */
-    border-radius: 5px; /* Rounded corners for the button */
-    display: inline-block; /* Ensures the link behaves like a button */
-    transition: background-color 0.3s; /* Smooth transition for hover effect */
+.github-link:hover, .youtube-link:hover {
+    background-color: #333;
 }
 
-/* Hover effect for buttons */
-.github-link:hover {
-    background-color: #333; 
-}
 
 /* Specific styling for the profile photo */
 .profile-image {
