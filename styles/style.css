@@ -98,6 +98,17 @@ footer {
     transition: background-color 0.3s; /* Smooth transition for hover effect */
 }
 
+/* Styling for Youtube link buttons */
+.youtube-link {
+    background-color: #333; /* Bootstrap black for buttons */
+    color: #ffffff; /* White text for contrast */
+    padding: 10px 15px; /* Padding inside the button */
+    text-decoration: none; /* Remove underline from links */
+    border-radius: 5px; /* Rounded corners for the button */
+    display: inline-block; /* Ensures the link behaves like a button */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
 /* Hover effect for buttons */
 .github-link:hover {
     background-color: #333; 
